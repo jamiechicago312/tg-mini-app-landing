@@ -91,11 +91,11 @@ export default function Home() {
       {/* Hero Section */}
       <main className="flex flex-col md:flex-row items-center justify-between p-8 gap-8 flex-1">
         <div className="max-w-xl">
-          <h1 className="text-4xl font-bold mb-4">Introducing the Storacha TG Mini App</h1>
-          <h2 className="text-2xl text-gray-700 mb-4">A seamless experience right inside Telegram</h2>
+          <h1 className="text-4xl font-bold mb-4">Back Up Your Telegram. The Spicy Way 🌶️</h1>
+          <h2 className="text-2xl text-gray-700 mb-4">Introducing Storacha’s Unofficial TG Mini App</h2>
           <p className="text-gray-700 mb-6 text-center md:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
-            Sed cursus ante dapibus diam. Sed nisi.
+            Easily upload your chats, contacts, media, and more — straight from Telegram into encrypted, decentralized storage powered by Storacha.  
+            Yes to secure backups. No to storage nonsense. Your data stays hot 🔥 and private — only you can access it.
           </p>
           <div className="flex justify-center md:justify-start">
             <a
