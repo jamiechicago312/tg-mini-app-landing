@@ -30,7 +30,7 @@ export default function Home() {
             Home
           </Link>
           <Link
-            href="https://console.storacha.network?utm_source=tg-mini-app&utm_medium=website&utm_campaign=tg-mini-app-launch"
+            href="https://t.me/storacha_bot/backup?startup=utm_source=tg-landing-page&utm_medium=website&utm_campaign=tg-mini-app-launch"
             className="px-4 py-2 bg-blue-700 text-white rounded-full transition hover:opacity-50"
           >
             Sign Up
@@ -97,6 +97,14 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
             Sed cursus ante dapibus diam. Sed nisi.
           </p>
+          <div className="flex justify-center ">
+            <a
+              href="https://storacha.network/try" // ← update this to your actual "Try it out" URL
+              className="px-6 py-3 bg-blue-700 text-white rounded-full font-semibold hover:opacity-50 transition"
+            >
+              Try It Now!
+            </a>
+          </div>
         </div>
         <div className="w-full md:w-1/2">
           <div className="relative w-full h-64 md:h-80">
@@ -139,27 +147,25 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="bg-blue-300 p-6 shadow-inner mt-auto">
-        <div className="flex flex-col md:flex-row gap-4 w-full">
-          <div className="flex flex-1 gap-2">
+        <div className="flex flex-col md:flex-row gap-4 w-full justify-center items-center">
+          <div className="flex flex-wrap gap-2 justify-center">
             <Link
-              href="/"
-              className="flex-1 text-center px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
+              href="https://storacha.network?utm_source=tg-mini-app&utm_medium=website&utm_campaign=tg-mini-app-launch"
+              className="text-center px-6 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
             >
               Home
             </Link>
             <Link
-              href="/signup"
-              className="flex-1 text-center px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
+              href="https://t.me/storacha_bot/backup?startup=utm_source=tg-landing-page&utm_medium=website&utm_campaign=tg-mini-app-launch"
+              className="text-center px-6 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
             >
               Sign Up
             </Link>
-          </div>
-          <div className="flex flex-1 gap-2">
             <a
               href="https://x.com/storachanetwork"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 text-center px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
+              className="text-center px-6 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
             >
               Twitter
             </a>
@@ -167,7 +173,7 @@ export default function Home() {
               href="https://t.me/storachanetwork"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 text-center px-4 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
+              className="text-center px-6 py-2 bg-blue-700 text-white rounded-full hover:bg-blue-800 transition opacity-50 hover:opacity-100"
             >
               Telegram
             </a>
