@@ -47,7 +47,7 @@ export default function Home() {
           </a>
           <Link
             href="https://t.me/storacha_bot/backup?startup=utm_source=tg-landing-page&utm_medium=website&utm_campaign=tg-mini-app-launch"
-            className="px-4 py-2 bg-red-700 text-white rounded-full border border-white shadow-lg hover:bg-red-950 hover:scale-105 hover:transition-transform hover:duration-200 transition ml-auto"
+            className="px-4 py-2 bg-red-700 text-white rounded-full border border-white shadow-lg hover:bg-red-600 hover:scale-105 hover:transition-transform hover:duration-200 transition ml-auto"
           >
             Try It
           </Link>
@@ -59,7 +59,7 @@ export default function Home() {
         <div className="md:hidden bg-blue-300 shadow-md p-4 flex flex-col gap-2">
           <Link
             href="/signup"
-            className="text-center px-4 py-2 bg-red-700 text-white rounded-full border border-white shadow-lg hover:opacity-50 transition  hover:bg-red-950 hover:scale-105 hover:transition-transform hover:duration-200 "
+            className="text-center px-4 py-2 bg-red-700 text-white rounded-full border border-white shadow-lg  transition  hover:bg-red-600 hover:scale-105 hover:transition-transform hover:duration-200 "
           >
             Try It
           </Link>
@@ -100,7 +100,7 @@ export default function Home() {
           <div className="flex justify-center md:justify-start">
             <a
               href="https://t.me/storacha_bot/backup?startup=utm_source=tg-landing-page&utm_medium=website&utm_campaign=tg-mini-app-launch"
-              className="px-6 py-3 bg-red-700 text-white rounded-full border border-white shadow-lg font-semibold hover:opacity-50 transition  hover:bg-red-950 hover:scale-105 hover:transition-transform hover:duration-200 "
+              className="px-6 py-3 bg-red-700 text-white rounded-full border border-white shadow-lg font-semibold  transition  hover:bg-red-600 hover:scale-105 hover:transition-transform hover:duration-200 "
             >
               Get Started Now
             </a>
@@ -134,7 +134,7 @@ export default function Home() {
         <div className="mt-8 flex justify-center">
           <a
             href="https://t.me/storacha_bot/backup?startup=utm_source=tg-landing-page&utm_medium=website&utm_campaign=tg-mini-app-launch"
-            className="px-6 py-3 bg-red-700 text-white rounded-full border border-white shadow-lg font-semibold hover:opacity-50 transition hover:bg-red-950 hover:scale-105 hover:transition-transform hover:duration-200 "
+            className="px-6 py-3 bg-red-700 text-white rounded-full border border-white shadow-lg font-semibold  transition hover:bg-red-600 hover:scale-105 hover:transition-transform hover:duration-200 "
           >
             Backup Now
           </a>
