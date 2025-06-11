@@ -115,7 +115,7 @@ export default function Home() {
               href="https://t.me/storacha_bot/backup?startup=utm_source=tg-landing-page&utm_medium=website&utm_campaign=tg-mini-app-launch"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-red-700 text-white rounded-full border border-white shadow-lg font-semibold  transition  hover:bg-red-600 hover:scale-105 hover:transition-transform hover:duration-200 "
+              className="px-8 py-5 bg-red-700 text-white rounded-full border border-white shadow-lg font-semibold text-lg transition  hover:bg-red-600 hover:scale-105 hover:transition-transform hover:duration-200 "
             >
               Get Started Now
             </a>
